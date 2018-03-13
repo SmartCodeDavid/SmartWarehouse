@@ -13,7 +13,15 @@
 @end
 
 @implementation AppDelegate
+//@property (assign,nonatomic) NSInteger numberOfPackages;
+//@property (retain, nonatomic) NSString* trackingNum;
+//@property (retain, nonatomic) NSString* status;
 
+@synthesize numberOfPackages;
+@synthesize trackingNum;
+@synthesize status;
+@synthesize imgSignaiture;
+@synthesize cusName;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.

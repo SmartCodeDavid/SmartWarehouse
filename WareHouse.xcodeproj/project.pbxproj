@@ -19,10 +19,18 @@
 		636F308B1EC57F1800996CB0 /* WareHouseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 636F308A1EC57F1800996CB0 /* WareHouseUITests.m */; };
 		636F309E1EC5B34F00996CB0 /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 636F309A1EC5B34F00996CB0 /* HTMLNode.m */; };
 		636F309F1EC5B34F00996CB0 /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 636F309C1EC5B34F00996CB0 /* HTMLParser.m */; };
-		636F30A01EC5B34F00996CB0 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 636F309D1EC5B34F00996CB0 /* README.md */; };
 		636F30A31EC5B48A00996CB0 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 636F30A21EC5B48A00996CB0 /* libxml2.tbd */; };
-		B78C31581ED9EFC0007CF9D2 /* OrderDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = B78C31571ED9EFC0007CF9D2 /* OrderDetail.m */; };
+		63E390E31EF0D32200DEDDF6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E390E21EF0D32200DEDDF6 /* MBProgressHUD.m */; };
+		9C6BAEE6F073759C8DB1B6B5 /* Pods_WareHouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B27CCC05D83D2045E4A83B /* Pods_WareHouse.framework */; };
+		B7357CED1EF2B949008D0443 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7357CEC1EF2B949008D0443 /* MessageUI.framework */; };
+		B745A33A1EF42B3400A271F1 /* Scanner.m in Sources */ = {isa = PBXBuildFile; fileRef = B745A3391EF42B3400A271F1 /* Scanner.m */; };
+		B75B82D91EF5A358001414E3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B75B82D81EF5A358001414E3 /* Podfile */; };
+		B76357E71EF65C5800689384 /* PickUpPage.m in Sources */ = {isa = PBXBuildFile; fileRef = B76357E61EF65C5800689384 /* PickUpPage.m */; };
+		B76B79F91EF94A4B00EE373A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B76B79F81EF94A4B00EE373A /* Images.xcassets */; };
 		B799E4091ED9CAAA007B741B /* TrackingDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = B799E4081ED9CAAA007B741B /* TrackingDetail.m */; };
+		B7BCDF031EFAA0440052BA58 /* Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDF021EFAA0440052BA58 /* Sound.m */; };
+		B7BCDF041EFAA0440052BA58 /* Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDF021EFAA0440052BA58 /* Sound.m */; };
+		B7BCDF051EFAA0440052BA58 /* Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BCDF021EFAA0440052BA58 /* Sound.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		037D2C208C1DBE730DE86434 /* Pods-WareHouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WareHouse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WareHouse/Pods-WareHouse.debug.xcconfig"; sourceTree = "<group>"; };
 		5C5E36A21EC9C55300E1F5DD /* DetailPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailPage.h; sourceTree = "<group>"; };
 		5C5E36A31EC9C55300E1F5DD /* DetailPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailPage.m; sourceTree = "<group>"; };
 		636F30621EC57F1700996CB0 /* WareHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WareHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,12 +74,22 @@
 		636F309A1EC5B34F00996CB0 /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLNode.m; sourceTree = "<group>"; };
 		636F309B1EC5B34F00996CB0 /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
 		636F309C1EC5B34F00996CB0 /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
-		636F309D1EC5B34F00996CB0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		636F30A21EC5B48A00996CB0 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
-		B78C31561ED9EFC0007CF9D2 /* OrderDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDetail.h; sourceTree = "<group>"; };
-		B78C31571ED9EFC0007CF9D2 /* OrderDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDetail.m; sourceTree = "<group>"; };
+		63E390E11EF0D32200DEDDF6 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = "Objective-C-HMTL-Parser-master/MBProgressHUD.h"; sourceTree = "<group>"; };
+		63E390E21EF0D32200DEDDF6 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = "Objective-C-HMTL-Parser-master/MBProgressHUD.m"; sourceTree = "<group>"; };
+		76B27CCC05D83D2045E4A83B /* Pods_WareHouse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WareHouse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1C410FC295DC8922B71BA5 /* Pods-WareHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WareHouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-WareHouse/Pods-WareHouse.release.xcconfig"; sourceTree = "<group>"; };
+		B7357CEC1EF2B949008D0443 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B745A3381EF42B3400A271F1 /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		B745A3391EF42B3400A271F1 /* Scanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scanner.m; sourceTree = "<group>"; };
+		B75B82D81EF5A358001414E3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B76357E51EF65C5800689384 /* PickUpPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickUpPage.h; sourceTree = "<group>"; };
+		B76357E61EF65C5800689384 /* PickUpPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickUpPage.m; sourceTree = "<group>"; };
+		B76B79F81EF94A4B00EE373A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B799E4071ED9CAAA007B741B /* TrackingDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackingDetail.h; sourceTree = "<group>"; };
 		B799E4081ED9CAAA007B741B /* TrackingDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackingDetail.m; sourceTree = "<group>"; };
+		B7BCDF011EFAA03B0052BA58 /* Sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sound.h; sourceTree = "<group>"; };
+		B7BCDF021EFAA0440052BA58 /* Sound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sound.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +97,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7357CED1EF2B949008D0443 /* MessageUI.framework in Frameworks */,
 				636F30A31EC5B48A00996CB0 /* libxml2.tbd in Frameworks */,
+				9C6BAEE6F073759C8DB1B6B5 /* Pods_WareHouse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +128,7 @@
 				636F30891EC57F1800996CB0 /* WareHouseUITests */,
 				636F30631EC57F1700996CB0 /* Products */,
 				636F30A11EC5B48A00996CB0 /* Frameworks */,
+				BED04E57148C5F14CF8A1B23 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,21 +145,29 @@
 		636F30641EC57F1700996CB0 /* WareHouse */ = {
 			isa = PBXGroup;
 			children = (
+				B75B82D81EF5A358001414E3 /* Podfile */,
 				636F30981EC5B34F00996CB0 /* Objective-C-HMTL-Parser-master */,
+				63E390E11EF0D32200DEDDF6 /* MBProgressHUD.h */,
+				63E390E21EF0D32200DEDDF6 /* MBProgressHUD.m */,
 				636F30681EC57F1700996CB0 /* AppDelegate.h */,
 				636F30691EC57F1700996CB0 /* AppDelegate.m */,
 				636F306B1EC57F1700996CB0 /* ViewController.h */,
 				636F306C1EC57F1700996CB0 /* ViewController.m */,
 				636F306E1EC57F1700996CB0 /* Main.storyboard */,
-				B78C31561ED9EFC0007CF9D2 /* OrderDetail.h */,
-				B78C31571ED9EFC0007CF9D2 /* OrderDetail.m */,
+				B76357E51EF65C5800689384 /* PickUpPage.h */,
+				B76357E61EF65C5800689384 /* PickUpPage.m */,
 				B799E4071ED9CAAA007B741B /* TrackingDetail.h */,
 				B799E4081ED9CAAA007B741B /* TrackingDetail.m */,
 				5C5E36A21EC9C55300E1F5DD /* DetailPage.h */,
 				5C5E36A31EC9C55300E1F5DD /* DetailPage.m */,
+				B745A3381EF42B3400A271F1 /* Scanner.h */,
+				B745A3391EF42B3400A271F1 /* Scanner.m */,
+				B7BCDF011EFAA03B0052BA58 /* Sound.h */,
+				B7BCDF021EFAA0440052BA58 /* Sound.m */,
 				636F30711EC57F1700996CB0 /* Assets.xcassets */,
 				636F30731EC57F1700996CB0 /* LaunchScreen.storyboard */,
 				636F30761EC57F1700996CB0 /* Info.plist */,
+				B76B79F81EF94A4B00EE373A /* Images.xcassets */,
 				636F30651EC57F1700996CB0 /* Supporting Files */,
 			);
 			path = WareHouse;
@@ -176,7 +206,6 @@
 				636F309A1EC5B34F00996CB0 /* HTMLNode.m */,
 				636F309B1EC5B34F00996CB0 /* HTMLParser.h */,
 				636F309C1EC5B34F00996CB0 /* HTMLParser.m */,
-				636F309D1EC5B34F00996CB0 /* README.md */,
 			);
 			path = "Objective-C-HMTL-Parser-master";
 			sourceTree = "<group>";
@@ -184,9 +213,20 @@
 		636F30A11EC5B48A00996CB0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B7357CEC1EF2B949008D0443 /* MessageUI.framework */,
 				636F30A21EC5B48A00996CB0 /* libxml2.tbd */,
+				76B27CCC05D83D2045E4A83B /* Pods_WareHouse.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BED04E57148C5F14CF8A1B23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				037D2C208C1DBE730DE86434 /* Pods-WareHouse.debug.xcconfig */,
+				AD1C410FC295DC8922B71BA5 /* Pods-WareHouse.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 636F308F1EC57F1800996CB0 /* Build configuration list for PBXNativeTarget "WareHouse" */;
 			buildPhases = (
+				E5F51C227C2A28F2EFF2AC05 /* [CP] Check Pods Manifest.lock */,
 				636F305E1EC57F1700996CB0 /* Sources */,
 				636F305F1EC57F1700996CB0 /* Frameworks */,
 				636F30601EC57F1700996CB0 /* Resources */,
+				F08B4466F04144109A1A0847 /* [CP] Embed Pods Frameworks */,
+				CC487B760F7FBEE09978178D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,10 +299,12 @@
 				TargetAttributes = {
 					636F30611EC57F1700996CB0 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = AXATP4F2YD;
 						ProvisioningStyle = Automatic;
 					};
 					636F307A1EC57F1800996CB0 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 64TX422529;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 636F30611EC57F1700996CB0;
 					};
@@ -296,7 +341,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				636F30751EC57F1700996CB0 /* LaunchScreen.storyboard in Resources */,
+				B76B79F91EF94A4B00EE373A /* Images.xcassets in Resources */,
 				636F30721EC57F1700996CB0 /* Assets.xcassets in Resources */,
+				B75B82D91EF5A358001414E3 /* Podfile in Resources */,
 				636F30701EC57F1700996CB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,18 +364,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CC487B760F7FBEE09978178D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WareHouse/Pods-WareHouse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5F51C227C2A28F2EFF2AC05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F08B4466F04144109A1A0847 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WareHouse/Pods-WareHouse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		636F305E1EC57F1700996CB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				636F30A01EC5B34F00996CB0 /* README.md in Sources */,
-				B78C31581ED9EFC0007CF9D2 /* OrderDetail.m in Sources */,
+				B745A33A1EF42B3400A271F1 /* Scanner.m in Sources */,
 				B799E4091ED9CAAA007B741B /* TrackingDetail.m in Sources */,
 				636F309E1EC5B34F00996CB0 /* HTMLNode.m in Sources */,
 				5C5E36A41EC9C55300E1F5DD /* DetailPage.m in Sources */,
+				B7BCDF031EFAA0440052BA58 /* Sound.m in Sources */,
 				636F306D1EC57F1700996CB0 /* ViewController.m in Sources */,
+				B76357E71EF65C5800689384 /* PickUpPage.m in Sources */,
 				636F306A1EC57F1700996CB0 /* AppDelegate.m in Sources */,
+				63E390E31EF0D32200DEDDF6 /* MBProgressHUD.m in Sources */,
 				636F30671EC57F1700996CB0 /* main.m in Sources */,
 				636F309F1EC5B34F00996CB0 /* HTMLParser.m in Sources */,
 			);
@@ -339,6 +436,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				636F30801EC57F1800996CB0 /* WareHouseTests.m in Sources */,
+				B7BCDF041EFAA0440052BA58 /* Sound.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +444,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7BCDF051EFAA0440052BA58 /* Sound.m in Sources */,
 				636F308B1EC57F1800996CB0 /* WareHouseUITests.m in Sources */,
 				5C5E36A51EC9C55300E1F5DD /* DetailPage.m in Sources */,
 			);
@@ -478,24 +577,39 @@
 		};
 		636F30901EC57F1800996CB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 037D2C208C1DBE730DE86434 /* Pods-WareHouse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = AXATP4F2YD;
 				"HEADER_SEARCH_PATHS[arch=*]" = /usr/include/libxml2;
 				INFOPLIST_FILE = WareHouse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = David.WareHouse;
+				PRODUCT_BUNDLE_IDENTIFIER = EmpireMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = NO;
 			};
 			name = Debug;
 		};
 		636F30911EC57F1800996CB0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD1C410FC295DC8922B71BA5 /* Pods-WareHouse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = AXATP4F2YD;
+				"HEADER_SEARCH_PATHS[arch=*]" = "${SDK_ROOT}/usr/include/libxml2";
 				INFOPLIST_FILE = WareHouse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = David.WareHouse;
+				PRODUCT_BUNDLE_IDENTIFIER = EmpireMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = NO;
 			};
 			name = Release;
 		};
@@ -503,6 +617,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 64TX422529;
 				INFOPLIST_FILE = WareHouseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = David.WareHouseTests;
@@ -515,6 +630,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 64TX422529;
 				INFOPLIST_FILE = WareHouseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = David.WareHouseTests;
